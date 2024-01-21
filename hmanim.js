@@ -1,0 +1,3 @@
+function createRandomNumber(){
+    const rand
+}
