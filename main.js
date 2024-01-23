@@ -1,28 +1,37 @@
 let isMobile = false;
+let prescroll = window.scrollY;
 
 (window.innerWidth<=600)?isMobile= true:isMobile=false
 
 
 window.addEventListener('scroll', function() {
+    
+    var scrollPosition = window.scrollY;
+    console.log(prescroll-scrollPosition)
+    if ((prescroll-scrollPosition)>0){ 
+        document.getElementById("navbar").style.top="0px";
+    } else{
+        document.getElementById('navbar').style.top="-60px"
+    }
+
     var aboutbox = document.querySelector('.about');
     var projbox = document.querySelector('.projects');
     var planbox = document.querySelector('.plans');
-    var scrollPosition = window.scrollY;
     var about=150;
     var proj=650;
     var plan = 850;
-    var about_u=1000;
+    var about_u=900;
     var proj_u=1230;
-    var plan_u = 1430;
+    var plan_u = 1630;
     
-    console.log(scrollPosition);
+    // console.log(scrollPosition);
     if (isMobile){
         about = 150;
         proj = 300;
         plan = 500 ;
-        about_u = 630;
-        proj_u = 789;
-        plan_u = 935;
+        about_u = 610;
+        proj_u = 769;
+        plan_u = 915;
     }
     // Adjust the left position based on the scroll position
     aboutbox.style.left = ((scrollPosition > about) && (scrollPosition < about_u)) ? '8vw' : '-100vw';

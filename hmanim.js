@@ -1,13 +1,4 @@
-let prescroll = window.scrollY;
 
-window.onscroll = function(){
-    const cuurentscroll = window.scrollY;
-    if (prescroll>cuurentscroll){
-        document.getElementById("navbar").style.top="0px";
-    } else{
-        document.getElementById('navbar').style.top="-60px"
-    }
-}
 
 
 

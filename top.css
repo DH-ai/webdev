@@ -13,6 +13,7 @@ body{
     display: bl;
     width: 100vw;
     transition:top 0.4s;
+    margin-bottom: 1px;
     /* height: 10vh; */
 }
 

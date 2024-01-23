@@ -23,6 +23,7 @@
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    margin-bottom: auto;
     
     display: flex;
     justify-content: center;
@@ -32,7 +33,7 @@
     right:60vw;
     width: 35vw;
     height: fit-content;
-    transition: transform 0.4s, left 0.9s ease-in-out;
+    transition: transform 0.4s, left 0.5s ease-in-out;
     
     
     color: rgb(255, 255, 255);
@@ -67,7 +68,7 @@
     left: 60vw;
     width: 35vw;
     height: fit-content;
-    transition: transform 0.4s, left 0.9s ease-in-out;
+    transition: transform 0.4s, left 0.5s ease-in-out;
     
 
     color: rgb(255, 255, 255);
@@ -99,7 +100,7 @@
     right: 72vw;
     width: 35vw;
     height: fit-content;
-    transition: transform 0.4s, left 0.9s ease-in-out;
+    transition: transform 0.4s, left 0.5s ease-in-out;
     
 
     color: rgb(255, 255, 255);
