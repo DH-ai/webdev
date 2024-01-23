@@ -26,8 +26,8 @@ window.addEventListener('scroll', function() {
     }
     // Adjust the left position based on the scroll position
     aboutbox.style.left = ((scrollPosition > about) && (scrollPosition < about_u)) ? '8vw' : '-100vw';
-    planbox.style.left = ((scrollPosition > proj) && (scrollPosition < proj_u)) ? '-57.5vw' : '-100vw';
-    projbox.style.left = ((scrollPosition > plan) && (scrollPosition < plan_u)) ? '26vw' : '120vw';
+    projbox.style.left = ((scrollPosition > proj) && (scrollPosition < proj_u)) ? '26vw' : '120vw';
+    planbox.style.left = ((scrollPosition > plan) && (scrollPosition < plan_u)) ? '-57.5vw' : '-100vw';
   
     }
 );
