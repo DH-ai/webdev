@@ -1,0 +1,93 @@
+.head{
+    font-size: 8vw ;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+    background-color: rgb(0, 0, 0);
+    color: rgb(197, 192, 192);
+    
+}
+.main{
+    height: 2000px;
+
+    display:flex;
+    /* justify-content:space-evenly; */
+    font-family:'Courier New', Courier, monospace;
+}
+.about{
+    position:relative;
+    text-align: center;
+    
+    font-size: 3vw;
+    top:20vh; 
+    right:60vw;
+    width: 35vw;
+    height: 30vh;
+    transition: transform 0.4s, left 0.9s ease-in-out;
+    
+
+    color: rgb(255, 255, 255);
+    background-color: #013503;
+    padding: 20px;
+    
+    
+    
+
+}
+.about:hover{
+    
+    transform: scale(1.05);
+}
+
+#aid1{
+    color: rgb(127, 0, 0);
+}
+.projects{
+    position:relative;
+    text-align: center;
+    float: left;
+    /* padding-top: 500px; */
+    font-size: 3vw;
+    top:80vh; 
+    left: 60vw;
+    width: 35vw;
+    height: 30vh;
+    transition: transform 0.4s, left 0.9s ease-in-out;
+    
+
+    color: rgb(255, 255, 255);
+    background-color: #013503;
+    padding: 20px;
+    
+    
+    
+
+}
+.projects:hover{
+    
+    transform: scale(1.05);
+}
+.plans{
+    position:relative;
+    text-align: center;
+    font-size: 6vw;
+    top:120vh; 
+    /* right: 100vw; */
+     /* Initially position the box off-screen */
+    width: 50vw;
+    height: 35vh;
+    transition: transform 0.4s, left 0.6s ease-in-out;
+    
+
+    color: rgb(6, 173, 0);
+    background-color: #ffffff;
+    padding: 20px;
+    
+    
+    
+
+}
+.plans:hover{
+    
+    transform: scale(1.05);
+}

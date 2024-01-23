@@ -36,7 +36,7 @@ window.addEventListener('resize',function(){
     for (var i = 0; i < columns; i++) {
         drops[i] = 1;
     }
-    console.log(drops.length + " , " + columns);
+    // console.log(drops.length + " , " + columns);
 })
 
 

@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Arial',sans-serif;
+    background-color: black;
+    overflow-x: hidden;
 }
 .navbar {
     background-color: rgb(0, 0, 0);
@@ -58,6 +60,12 @@ body{
     margin: 10px;
     padding: 5px;
     width: 230px;
+    border-style: hidden;
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position: 200px 9px;
+    background-size: auto;
+    text-indent: 10px;
     
     
     
@@ -65,27 +73,28 @@ body{
 
 }
 
-.searchbar:hover {
+.searchbar:hover  {
     background-color: rgb(225, 225, 225);
+    
+    
+}
+.searchbar:focus-visible{
+    outline: none;
+    
+}
+.searchicon{
+    color:white;
+
 }
 #nodrop{ 
     display: flex;
-    height: 300px;
+    height: 400px;
     width: auto;
     color: rgb(0, 255, 0);
     overflow-wrap: break-word;
     font-family: 'Courier New', Courier, monospace;
-    
     background-color: rgb(0, 0, 0);
     
 }
 
-#ds{
-    /* background-color: rgb(255, 255, 255); */
-    overflow-wrap:break-word ;
-    word-break: break-all;
-}
-canvas {
-    display: block;
-    width: auto;
-}
+
