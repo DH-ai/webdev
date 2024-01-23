@@ -6,12 +6,12 @@ let prescroll = window.scrollY;
 
 window.addEventListener('scroll', function() {
     
-    var scrollPosition = window.scrollY;
-    console.log(prescroll-scrollPosition)
-    if ((prescroll-scrollPosition)>0){ 
+    const scrollPosition = window.scrollY;
+    console.log();
+    if ((prescroll>scrollPosition)){ 
         document.getElementById("navbar").style.top="0px";
     } else{
-        document.getElementById('navbar').style.top="-60px"
+        // document.getElementById('navbar').style.top="-80px"
     }
 
     var aboutbox = document.querySelector('.about');
