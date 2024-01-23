@@ -9,6 +9,10 @@
 }
 .main{
     height: 2000px;
+    @media screen {
+        overflow-x: hidden;
+        
+    }
 
     display:flex;
     /* justify-content:space-evenly; */
@@ -17,23 +21,31 @@
 .about{
     position:relative;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     
-    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    
+    font-size:6vw ;
     top:20vh; 
     right:60vw;
     width: 35vw;
-    height: 30vh;
+    height: fit-content;
     transition: transform 0.4s, left 0.9s ease-in-out;
     
-
+    
     color: rgb(255, 255, 255);
     background-color: #013503;
     padding: 20px;
     
     
     
-
+    
+    
 }
+
+
 .about:hover{
     
     transform: scale(1.05);
@@ -45,13 +57,16 @@
 .projects{
     position:relative;
     text-align: center;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     float: left;
     /* padding-top: 500px; */
-    font-size: 3vw;
-    top:80vh; 
+    font-size: 6vw;
+    top:70vh; 
     left: 60vw;
     width: 35vw;
-    height: 30vh;
+    height: fit-content;
     transition: transform 0.4s, left 0.9s ease-in-out;
     
 
@@ -59,10 +74,14 @@
     background-color: #013503;
     padding: 20px;
     
-    
+    @media screen and (max-width:600px) {
+        
+        top:50vh;
+    }
     
 
 }
+
 .projects:hover{
     
     transform: scale(1.05);
@@ -70,18 +89,26 @@
 .plans{
     position:relative;
     text-align: center;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    float: left;
+    /* padding-top: 500px; */
     font-size: 6vw;
     top:120vh; 
-    /* right: 100vw; */
-     /* Initially position the box off-screen */
-    width: 50vw;
-    height: 35vh;
-    transition: transform 0.4s, left 0.6s ease-in-out;
+    right: 72vw;
+    width: 35vw;
+    height: fit-content;
+    transition: transform 0.4s, left 0.9s ease-in-out;
     
 
-    color: rgb(6, 173, 0);
-    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    background-color: #013503;
     padding: 20px;
+    @media screen and (max-width:600px) {
+        
+        top:80vh;
+    }
     
     
     

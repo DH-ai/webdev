@@ -1,3 +1,16 @@
+let prescroll = window.scrollY;
+
+window.onscroll = function(){
+    const cuurentscroll = window.scrollY;
+    if (prescroll>cuurentscroll){
+        document.getElementById("navbar").style.top="0px";
+    } else{
+        document.getElementById('navbar').style.top="-60px"
+    }
+}
+
+
+
 // Initialising the canvas
 var canvas = document.querySelector('canvas'),
     ctx = canvas.getContext('2d');
