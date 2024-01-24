@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.header
+{
+    background-color: rgb(68, 75, 136);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10vh;
+    transition: transform 0.1s,  font-size 0.9s;
+    padding: 10px;
+    
+}
+.header:hover{
+    transform: scale(1.2);
+    cursor:default;
+    
+}
+
+#about1:hover{
+  
+    text-transform: lowercase;
+}
+#about2:hover{
+    text-transform: lowercase;
+}
+#about3:hover{
+    text-transform: lowercase;
+}
+#about4:hover{
+    text-transform: lowercase;
+}
+#about5:hover{
+    text-transform: lowercase;
+}
+#about6:hover{
+    text-transform: lowercase;
+}
+#box{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+
+
+}
+
+.skill{
+    font-size: 5em;
+    padding: 20px;
+    transition: all 0.9s;
+    height: auto;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    /* margin-left: 60px; */
+    margin: 40px;
+    color: rgb(198, 198, 198);
+    
+    border-radius: 20px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 50px 10px rgba(215, 215, 215, 0.995);
+    
+   
+}
+.skill .skp{
+    font-size: .2em;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+}   
+.cool-bg{
+    font-size: 7em;
+    padding: 20px;
+    transition: all 0.9s;
+    height: 40vh;
+    width: auto;
+    background-color: rgb(172, 172, 172);
+    /* margin-left: 60px; */
+    margin-top: 60px;
+    /* margin-right: 60px; */
+    border-radius: 20px;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#p{
+    font-size: 3vh;
+    color: aquamarine;
+}
