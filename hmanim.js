@@ -8,8 +8,9 @@ var canvas = document.querySelector('canvas'),
 
 // Setting the width and height of the canvas
 var canvasContainer = document.getElementById('nodrop');
-canvas.height = canvasContainer.clientHeight;
-canvas.width = canvasContainer.clientWidth;
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+
 
 
 
@@ -33,7 +34,9 @@ for (var i = 0; i < columns; i++) {
 }
 
 window.addEventListener('resize',function(){
-    canvas.width = canvasContainer.clientWidth;
+    canvas.width = window.innerWidth;
+
+    canvas.height = window.innerHeight;
     
     columns = Math.floor(canvas.width/fontSize)
     
