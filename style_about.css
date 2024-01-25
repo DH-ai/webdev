@@ -17,10 +17,12 @@ body{
 .header:hover{
     transform: scale(1.2);
     cursor:default;
+    /* position: ab; */
     
 }
 
 #about1:hover{
+
   
     text-transform: lowercase;
 }
@@ -108,9 +110,17 @@ body{
 }
 #rocket{
     width: 2.5px;
-    height: 1300px;
+    height: 20eh;
     margin: 50px;
     background-color: rgb(0, 0, 0);
+    
+}
+#rocket1{
+    position: fixed;
+    right: 30px;
+    width: 4em;
+    z-index: 1;
+    rotate: 180deg ;
     
 }
 
@@ -121,7 +131,7 @@ body{
     
     background-color: rgb(255, 255, 255);
 }
-.s1{
+.elements{
     /* background-image: url("python.jpg") ;
     background-size:50em 50em;
     background-repeat: no-repeat; */
@@ -130,87 +140,18 @@ body{
     margin: 30px;
     border-radius: 20px;
     outline: auto;
-    background-color: rgb(68, 75, 136);
+    outline-color: rgb(181, 181, 181);
+    background-color: rgb(255, 255, 255);
     
     transition: all 0.5s;
     text-align: center;
-    padding: 50px 20px 20px 50px ;
+    padding: 30px ;
     color:rgb(0, 0, 0);
     font-size: 1.4em;
-    font-style:italic;
-    font-weight: 600;
+    font-style:normal;
+    font-weight: 700;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.s1:hover{
+.elements:hover{
     transform: scale(1.1);
-}
-.s2:hover{
-    transform: scale(1.1);
-}
-.s3:hover{
-    transform: scale(1.1);
-}
-.s4:hover{
-    transform: scale(1.1);
-}
-.s5:hover{
-    transform: scale(1.1);
-}
-.s6:hover{
-    transform: scale(1.1);
-}
-.s2{
-    
-    height: 20vh;
-    width: 60vw;
-    margin: 30px;
-    border-radius: 20px;
-    transition: all 0.5s;
-    outline: auto;
-    outline-color: rgb(181, 181, 181);
-    background-color: rgb(255, 255, 255);
-}
-.s3{
-    
-    height: 20vh;
-    width: 60vw;
-    transition: all 0.5s;
-    outline: auto;
-    margin: 30px;
-    border-radius: 20px;
-    outline-color: rgb(181, 181, 181);
-    background-color: rgb(255, 255, 255);
-}
-.s4{
-    
-    height: 20vh;
-    width: 60vw;
-    outline: auto;
-    margin: 30px;
-    border-radius: 20px;
-    outline-color: rgb(181, 181, 181);
-    background-color: rgb(255, 255, 255);
-    transition: all 0.5s;
-}
-.s5{
-    
-    height: 20vh;
-    width: 60vw;
-    outline: auto;
-    margin: 30px;
-    border-radius: 20px;
-    outline-color: rgb(181, 181, 181);
-    background-color: rgb(255, 255, 255);
-    transition: all 0.5s;
-}
-.s6{
-    
-    height: 20vh;
-    width: 60vw;
-    outline: auto;
-    margin: 30px;
-    border-radius: 20px;
-    outline-color: rgb(181, 181, 181);
-    background-color: rgb(255, 255, 255);
-    transition: all 0.5s;
 }
