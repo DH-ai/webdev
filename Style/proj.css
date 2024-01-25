@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+
+
+.section{
+
+    width: auto;
+    height: 100vh;
+    
+    
+    font-size: 4vw;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: 600;
+    color: white;
+    /* transition: all 0.7s; */
+
+
+}
+
+.section.vp{
+    /* transform: scale(1.1); */
+    /* color: black; */
+    /* filter:invert() ; */
+}
+
+
+/* s1 slide */
+#s1{
+    background-color:rgb(255, 255, 255);
+    display: flexbox;
+    flex-direction: column;
+
+ 
+
+
+}
+#head{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    padding-bottom: 20vh;
+    background-color: rgb(116, 128, 118);
+}
+#elms1{
+    display: flex;
+    flex-direction: row;
+    
+}
+#elms1 #para{
+
+    margin: 100px;
+    padding: 100px;
+    font-size: small;
+    border-width: 1px;
+    background-color:transparent;
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#web{
+    scroll-behavior:initial;
+    width: 45vw;
+    height: 32vh;
+    
+
+}
+
+
+
+/* s2 slide */
+#s2{
+    background-color:rgb(79, 117, 84);
+
+}
+#s3{
+    background-color:rgb(43, 226, 73);
+}
+#s4{
+    background-color:rgb(225, 93, 93);
+}
+#s5{
+    background-color:rgb(154, 109, 156);
+}
+#s6{
+    background-color:blueviolet;
+}
