@@ -8,12 +8,12 @@ let i = 1;
 // }
 
 function aim(){
-    document.getElementById("aim1").classList.remove("vis")
+    document.getElementById("aim").classList.remove("vis")
     document.getElementById("process1").classList.remove("vis")
 }
 
 function proc(){
-    document.getElementById("aim1").classList.add("vis")
+    document.getElementById("aim").classList.add("vis")
     document.getElementById("process1").classList.add("vis")
 
 
