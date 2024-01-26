@@ -4,6 +4,7 @@ body{
     font-family: 'Arial',sans-serif;
     background-color: black;
     overflow-x: hidden;
+    overflow-y:scroll;
 }
 .navbar {
     position: fixed;

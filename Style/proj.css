@@ -5,15 +5,15 @@ body{
 
 .section{
 
-    width: auto;
+    width: 100vw;
     height: 100vh;
     
     
-    font-size: 4vw;
+    /* font-size: 4vw; */
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    font-weight: 600;
+    /* font-weight: 600; */
     color: white;
-    /* transition: all 0.7s; */
+    transition: all 0.7s;
 
 
 }
@@ -27,60 +27,161 @@ body{
 
 /* s1 slide */
 #s1{
-    background-color:rgb(255, 255, 255);
-    display: flexbox;
+    background-color:rgb(230, 230, 230);
+    display: flex;
     flex-direction: column;
-
- 
-
-
+    z-index: -1;
 }
-#head{
+
+#the{
     font-family: 'Times New Roman', Times, serif;
-    align-items: center;
-    padding-bottom: 20vh;
-    background-color: rgb(116, 128, 118);
+    text-align: center;
+    font-size: 2.3em;
+
+    font-weight:700;
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    /* padding-bottom: 1em; */
+    /* padding-top: 1em; */
 }
 #elms1{
+    margin-top: 10vh;
+    margin-inline: 7vw;
+    height: 50vh;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    
     
 }
-#elms1 #para{
+#show1{
+    background-color: rgb(1, 24, 95);
 
-    margin: 100px;
-    padding: 100px;
-    font-size: small;
-    border-width: 1px;
-    background-color:transparent;
-    border-style:solid;
-    border-color: rgb(255, 255, 255);
-    border-radius: 10px;
 }
-#web{
-    scroll-behavior:initial;
-    width: 45vw;
-    height: 32vh;
+#cont1{
+    color: rgb(0, 0, 0);
+    width: 40vw;
+    /* border-style: solid; */
+    border-radius:14px;
+    border-width: 2px;
+    border-color: rgb(92, 92, 92);
+    /* text-align: center; */
+    padding: 1em;
     
-
 }
 
 
+.aim1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
 
 /* s2 slide */
 #s2{
+    position: fixed;
     background-color:rgb(79, 117, 84);
+    top: 0px;
+    left: 100vw;
+    z-index: 0;
 
 }
+#s2 .animation{
+    position: fixed;
+    background-color: aliceblue;
+    top:0px;
+    left: 0px;z-index: 0;
+    
+}
+
+
 #s3{
+    position: fixed;
     background-color:rgb(43, 226, 73);
+
+    z-index: 2;
+}
+#s3 .animation{
+    background-color: aliceblue;
+    top:0px;
+    left: 0px;z-index: 2;
+    
 }
 #s4{
+    position: fixed;
     background-color:rgb(225, 93, 93);
+
+    z-index: 3;
+}
+#s4 .animation{
+    background-color: aliceblue;
+    top:0px;
+    left: 0px;z-index: 3;
+    
 }
 #s5{
+    position: fixed;
     background-color:rgb(154, 109, 156);
+
+    z-index: 4;
+}
+#s5 .animation{
+    background-color: aliceblue;
+    top:0px;
+    left: 0px;z-index: 4;
+    
 }
 #s6{
+    position: fixed;
     background-color:blueviolet;
+    z-index: 5;
+}
+#s6 .animation{
+    background-color: aliceblue;
+    top:0px;
+    left: 0px;z-index: 5;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(77, 77, 77);
+    bottom: 0px;
+    z-index: 10;
+    /* transition: ; */
+}
+#but1{
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-inline: 100px;
+    border-radius: 20px;
+    outline: transparent;
+    transition: all 0.2s;
+}
+#but2{
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-inline: 100px;
+    border-radius: 20px;
+    outline: transparent;
+    transition: all 0.2s;
+
+    
+}
+#but1:active{
+    background-color: black;
+
+    color: rgb(255, 0, 0);
+}
+#but2:active{
+    background-color: black;
+
+    color: rgb(255, 0, 0);
 }

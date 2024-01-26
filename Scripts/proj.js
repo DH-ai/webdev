@@ -1,15 +1,21 @@
-const sections = document.querySelectorAll(".section")
-console.log
+const sections = document.getElementsByClassName("section")
 
 
-const observer = new IntersectionObserver(entries =>{
-    entries.forEach(entry=>{
-        entry.target.classList.toggle("vp",entry.isIntersecting);
-    })
-    // console.log(entries);
-},{
-    threshold:0.6
-})
 
-// sections.forEach(section =>{observer.observe(section);});
-sections.forEach(section=>{observer.observe(section)});
+let i = 1;
+function togle(bool){
+
+}
+function next(){
+    sections[i].style.left = '0px'
+    sections[i].style.top = '0px'
+    console.log(i)
+    i++;
+    
+}
+function prev(){
+    sections[i].style.left = '100vw'
+    sections[i].style.top = '100vh'
+    console.log(i)
+    i--;
+}
