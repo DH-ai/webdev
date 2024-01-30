@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    
 }
 
 
@@ -13,16 +14,11 @@ body {
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     /* font-weight: 600; */
     color: white;
-    transition: all 0.7s;
+    /* transition: all 0.7s; */
 
 
 }
 
-.section.vp {
-    /* transform: scale(1.1); */
-    /* color: black; */
-    /* filter:invert() ; */
-}
 
 
 /* s1 slide */
@@ -152,26 +148,120 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
 /* s2 slide */
 #s2 {
     position: fixed;
-    background-color: rgb(79, 117, 84);
-    top: 0px;
-    left: 100vw;
-    z-index: 0;
-
-}
-
-#s2 .animation {
-    position: fixed;
-    background-color: aliceblue;
+    background-color: #000000;
     top: 0px;
     left: 0px;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#s2title{
+    font-family:'Raleway', sans-serif;
+    font-size: 3em;
+    padding-left: 7vw;
+    padding-top: 1vh;
+    letter-spacing: 8px;
+}
+.lt{
+    font-family: 'Raleway',sans-serif;
+    font-size: 0.8em;
+    text-align: end;
+    letter-spacing: 1px;
+    padding-right: 2.6rem;
+    padding-top: 2%;
+}
+#s2 #slideshow{
+    margin-top: 12vh;
+    background-color: rgb(0, 0, 0);
+    height: 45vh;
+    display: flex;
+    /* overflow-x: scroll; */
+    /* animation-name: ss ;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+    overflow-x: scroll;
+
+  
+}
+
+
+@keyframes ss {
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(100%);}
+}
+
+
+
+.sld{
+    position:relative;
+    video{
+        height:100%;
+        
+    }
+    img{
+        height: 100%;
+        width: 30vw;
+    }
+    transition: all 0.4s;
+    filter: brightness(0.8);
+    margin:10px;
+    border: solid rgb(38, 38, 38);
+    border-radius: 10px;
+}
+
+#p3{
+    position: relative;
+    top:-100px;
+    z-index: 1;
+    padding: 10px;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.494);
+    font-family: 'Raleway',sans-serif ;
+    opacity: 0;
 
 }
 
 
+.sld:hover{
+    transform: scale(1.03);
+    filter: brightness(1);
+    z-index: 1;
+    #p3{
+        opacity: 1;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 3 */
 #s3 {
     position: fixed;
     background-color: rgb(43, 226, 73);
@@ -238,7 +328,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 10vh;
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(48, 48, 48);
     bottom: 0px;
     z-index: 10;
     border-style:solid ;
@@ -253,7 +343,9 @@ body {
 
 #but1 {
     width: 100px;
-    background-color: rgb(158, 122, 211);
+    background-color: rgb(158, 124, 212);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 40px;
     margin-inline: 100px;
     border-radius: 20px;
@@ -265,19 +357,23 @@ body {
     width: 100px;
     background-color: rgb(110, 203, 189);
     font-size: 40px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
     margin-inline: 100px;
     border-radius: 20px;
     outline: transparent;
     transition: all 0.1s;
+    
 
 
 }
 #but1:hover {
     background-color: rgb(115, 91, 155);
+    
 
 }
 #but1:active {
-    background-color: rgb(87, 68, 117);
+    background-color: rgb(55, 39, 81);
 
 }
 
